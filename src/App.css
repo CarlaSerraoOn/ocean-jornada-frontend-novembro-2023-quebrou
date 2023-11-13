@@ -13,13 +13,10 @@
   translate: -0.25rem -0.25rem;
 }
 
+
 .card > h2 {
   font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
   border-left: 0.5rem solid #97d7d7;
-}
-
-.card:hover h2 {
-  
 }
 
 .card > img {
@@ -29,4 +26,21 @@
 .card:hover img {
   translate: -0.25rem -0.25rem;
   box-shadow: 0.25rem 0.25rem #FEA6CA;
+}
+
+.tags{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.75rem;
 }
